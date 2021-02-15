@@ -24,8 +24,7 @@ let package = Package(
         .target(
             name: "AXStateButton",
             path: "Source",
-            exclude: [
-            ]
+            publicHeadersPath: "Source"
         )
     ]
 )
